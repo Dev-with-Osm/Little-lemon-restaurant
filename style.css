@@ -446,7 +446,7 @@ img{
 
 
   .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assest/restaurant-interior.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assest/restaurant-interior.jpg") center/cover no-repeat;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -674,9 +674,6 @@ footer .copyright{
 
 /* media query */
 @media (max-width:799px) {
-  .hd-icons a {
-    display: none;
-  }
   *{
     padding: 0;
     margin: 0;
